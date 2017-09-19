@@ -1,13 +1,16 @@
 {
   "scripts": {
     "dist": "./node_modules/.bin/webpack src/main.js dist/bundle.js",
+    "dist-pdf": "./node_modules/.bin/webpack src/pdf.js dist/bundle-pdf.js",
     "server": "./node_modules/.bin/http-server .",
-    "dist-watch": "./node_modules/.bin/webpack -w src/main.js dist/bundle.js"
+    "dist-watch": "./node_modules/.bin/webpack -w src/main.js dist/bundle.js",
+    "dist-watch-pdf": "./node_modules/.bin/webpack -w src/pdf.js dist/bundle-pdf.js"
   },
   "dependencies": {
     "flyd": "^0.2.4",
     "j2c": "^0.11.3",
     "mithril": "^1.1.3",
+    "pdfjs-dist": "^1.9.575",
     "ramda": "^0.24.1",
     "ramda-lens": "^0.1.2",
     "tachyons": "^4.8.1"

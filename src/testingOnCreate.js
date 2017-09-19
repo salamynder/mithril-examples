@@ -1,4 +1,5 @@
 // getting info from the real dom: oncreate-lifecycle method
+// http://jsbin.com/hugiciyoco/edit?js,console,output
 import m from 'mithril'
 import Stream from "mithril/stream"
 
