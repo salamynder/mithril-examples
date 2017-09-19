@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "dist": "./node_modules/.bin/webpack src/main.js dist/bundle.js",
+    "server": "./node_modules/.bin/http-server .",
+    "dist-watch": "./node_modules/.bin/webpack -w src/main.js dist/bundle.js"
+  },
+  "dependencies": {
+    "flyd": "^0.2.4",
+    "j2c": "^0.11.3",
+    "mithril": "^1.1.3",
+    "ramda": "^0.24.1",
+    "ramda-lens": "^0.1.2",
+    "tachyons": "^4.8.1"
+  },
+  "devDependencies": {
+    "http-server": "^0.10.0",
+    "webpack": "^3.5.6"
+  }
+}
