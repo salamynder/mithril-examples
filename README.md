@@ -8,7 +8,8 @@
 4. navigate to localhost:8080
 
 ## Reading
-
+-   [official tutorial](https://mithril.js.org/simple-application.html)
+-   [simple examples](https://mithril-examples.firebaseapp.com/)
 -   [declarative templates](https://lhorie.github.io/mithril-blog/getting-over-a-fear-of-turing-complete-templates.html)
 -   ex: occlusion culling:
     -   [1: (old mithril v0.1.3)](http://jsfiddle.net/7JNUy/1/)
